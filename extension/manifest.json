@@ -1,0 +1,32 @@
+{
+    "manifest_version": 3,
+    "name": "PriceWise - Smart Price Comparison",
+    "version": "1.0.0",
+    "description": "Compare product prices across multiple online stores and find the best price.",
+
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+
+    "host_permissions": [
+        "http://localhost:3000/*"
+    ],
+
+    "action": {
+        "default_popup": "popup.html"
+    },
+
+    "content_scripts": [
+        {
+            "matches": [
+                "http://*/*",
+                "https://*/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_idle"
+        }
+    ]
+}

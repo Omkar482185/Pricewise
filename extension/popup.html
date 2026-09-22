@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>PriceWise</title>
+
+    <link
+        rel="stylesheet"
+        href="popup.css"
+    >
+
+</head>
+
+
+<body>
+
+    <div class="container">
+
+        <!-- Header -->
+
+        <div class="header">
+
+            <div class="logo">
+                💰
+            </div>
+
+            <div>
+
+                <h1>
+                    PriceWise
+                </h1>
+
+                <p>
+                    Smart Price Comparison
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- Loading -->
+
+        <div
+            id="loading"
+            class="loading"
+        >
+
+            <div class="loader"></div>
+
+            <p>
+                Finding the best price...
+            </p>
+
+        </div>
+
+
+        <!-- Error -->
+
+        <div
+            id="error"
+            class="error hidden"
+        ></div>
+
+
+        <!-- Results -->
+
+        <div
+            id="result"
+            class="hidden"
+        >
+
+            <!-- Product information -->
+
+            <div class="product-card">
+
+                <img
+                    id="productImage"
+                    class="product-image"
+                    src=""
+                    alt="Product"
+                >
+
+                <div>
+
+                    <h2 id="productName">
+                        Product
+                    </h2>
+
+                    <p class="current-price">
+
+                        Current Price:
+
+                        <strong id="currentPrice">
+                            --
+                        </strong>
+
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Best price -->
+
+            <div class="best-card">
+
+                <div class="best-label">
+                    🏆 BEST PRICE
+                </div>
+
+                <div
+                    id="bestPrice"
+                    class="best-price"
+                >
+                    ₹0
+                </div>
+
+                <div
+                    id="bestStore"
+                    class="best-store"
+                >
+                    Store
+                </div>
+
+                <div
+                    id="savings"
+                    class="saving"
+                >
+                    You save ₹0
+                </div>
+
+            </div>
+
+
+            <!-- Comparison -->
+
+            <h3>
+                Price Comparison
+            </h3>
+
+            <div
+                id="comparisonList"
+                class="comparison-list"
+            ></div>
+
+
+            <!-- Refresh -->
+
+            <button
+                id="refreshButton"
+                class="refresh"
+            >
+                🔄 Check Again
+            </button>
+
+        </div>
+
+
+        <!-- Footer -->
+
+        <div class="footer">
+
+            PriceWise • Compare before you buy
+
+        </div>
+
+    </div>
+
+
+    <script src="popup.js"></script>
+
+</body>
+
+</html>
