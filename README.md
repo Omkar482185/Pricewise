@@ -296,3 +296,18 @@ https://github.com/Omkar482185
 This project is licensed under the **MIT License**.
 
 See the [LICENSE](LICENSE) file for details.
+
+## How PriceWise Works
+
+1. Browse an online store and select a product.
+2. PriceWise retrieves relevant product information.
+3. The extension uses shopping search results to find comparable listings.
+4. Users can compare available prices and visit retailer websites.
+5. Comparing listings helps users make informed purchasing decisions.
+
+## Benefits
+
+- Saves time spent searching across multiple stores.
+- Makes price comparison easier.
+- Helps users discover alternative product listings.
+- Provides convenient access to retailer websites.
